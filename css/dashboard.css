@@ -1,0 +1,59 @@
+.principal{
+    align-items:center;
+    border: 2px solid red;
+    display:flex;
+    height:80vh;
+    justify-content:space-around;
+    padding:0 10px; 
+}
+.widget{
+    border:2px solid blue;
+    border-radius:20px;
+    width:30%;
+    height:60vh;
+    padding:0 10px 10px
+}
+h2,
+h3{
+    text-align:center;
+}
+
+.content{
+    align-items:center; 
+    border:1px solid purple;
+    border-radius:20px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content:center;
+    height:52vh;
+    padding:20px;
+    overflow:scroll;
+}
+.listado{
+    align-items:center;
+    border:1px solid purple;
+    border-radius:20px;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    height:52vh;
+    padding:20px;
+    overflow:scroll;
+}
+.listado.solicitud{
+    height:45vh;
+    margin-bottom:10px;
+}
+.botones{
+    /* border:1px solid green; */
+    text-align:right;
+
+}
+.registro_historial{
+    margin: 10px 0;
+}
+table{
+    border:1px solid green;
+}
+

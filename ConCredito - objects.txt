@@ -1,0 +1,48 @@
+
+let cliente = {
+    id:1,
+    nombre:'Manuel',
+    apellido:'López',
+    edad:29,
+    solicitudes:new Array(10),
+}
+
+let solicitud = {
+    id_sol:1,
+    id_cliente:1,
+    monto:10000,
+    plazo:3,
+    monto_pagar:23000
+}
+
+
+
+function getProfile({nombre,apellido,monto}){
+    console.log(`El cliente ${nombre} ${apellido} ha solitado ${monto}`);
+}
+
+function replicarSolicitudParaOtroCliente(solicitud)
+{
+    solicitud.id_sol=14
+    solicitud.monto= 40000
+    return solicitud
+    
+    
+}
+
+getProfile(cliente)
+replicarSolicitudParaOtroCliente(solicitud)
+
+
+function imprimeNombre(nombre,apellido){
+    console.log(`${nombre} ${apellido} impreso de forma normal`)
+}
+
+    
+imprimeNombreArrow = nombre,apellido => console.log(`${nombre} ${apellido} impreso de forma arrow`)
+
+imprimeNombre('Yessenia','Beltran')
+imprimeNombreArrow('Manuel','Lopez')
+
+
+clase 18
